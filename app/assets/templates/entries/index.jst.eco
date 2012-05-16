@@ -1,0 +1,20 @@
+<header class="head">
+	<h1>Stalk your Idols!</h1> 
+	<p>quickly find the twitter handle of your favorite Bands and Artists</p>
+</header>
+
+ <div class="wrap">
+   <article class="form_wrap">
+   	<form class="new_entry" id="new_entry">
+   		 <span class="secret_field" id="new_entry_id"></span>
+   		 <label class="name_label" id="new_entry_label" for="name">Please type in the name of the band or artist</label>
+   	  <input type="text" name="name" class="name_input" id="new_entry_name">
+   	<input type="submit" class="new_button" value="Add">
+   </form>
+   </article>
+   
+   
+   <article class="list_wrap">
+     <ul id="entries"></ul>
+   </article>
+ </div>

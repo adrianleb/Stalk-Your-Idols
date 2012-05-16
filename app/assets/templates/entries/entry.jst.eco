@@ -1,0 +1,4 @@
+<div class="imgbox" data-url=""></div>
+<h1><%= @entry.get('name') %></h1>
+<span class="secret_field unique"><%= @entry.get('uniqueid') %></span>
+<a  data-pie="<%= @entry.get('id') %>" href="#delete/<%= @entry.get('id') %>" class="destroyLink">kill</a>
