@@ -1,4 +1,4 @@
-Stalk-Your-Idols
+Stalk Your Idols
 ================
 
 TODO proper readme
